@@ -55,8 +55,8 @@
 <view class="page">
   <view class="category-list__item">
     <view class="weui-flex category-list__item-hd" @tap="toggle">
-        <view class="weui-flex__item page-title">{{ currentCategory.name || '话题' }}</view>
-        <image class="category-list__img" src="/images/category.png"></image>
+      <view class="weui-flex__item page-title">{{ currentCategory.name || '话题' }}</view>
+      <image class="category-list__img" src="/images/category.png"></image>
     </view>
 
     <view class="category-list__item-bd {{ categoryOpen ? 'category-list__item-bd_show' : '' }}">
